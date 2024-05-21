@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bodycontainer{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    gap: 50px;
+    display: flex;
+}
+.leftside{
+    width: 380px;
+    height: 100vh;
+    background-image: linear-gradient(to right,black,grey);
+}
+.leftside img {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.rightside{
+    width: 600px;
+    height: 100vh;
+    /* background-color: rgb(3, 65, 44); */
+}
+#start{
+    color: #87CEEB;
+    font-family:'Roboto';
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.logocontainer{
+    width: 600px;
+    height: 90px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.logocontainer img{
+    /* width: 70px;
+    height: 40px; */
+    margin-top: 40px;
+}
+#fract{
+  font-family:'RocknRoll one'; 
+  color: #3EB29A;  
+}
+#continue{
+    color: #87CEEB;
+    font-family: 'RocknRoll one';
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.inputcontainer {
+    width:600px;
+    height: 300px;
+    /* background-color: gray; */
+    
+}
+::placeholder{
+    color: rgb(95, 95, 130);
+    font-family: 'Roboto';
+}
+.inputcontainer input{
+ width: 250px;
+ height: 40px;
+ background-color: transparent;
+ border-color:aquamarine ;
+ margin-left: 70px;
+ margin-top: 30px;
+ align-items: center;
+ justify-content: center;
+ border-radius: 10px;
+}
+#forget{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+#forget a{
+    color: #0E87B9;
+    text-decoration: none;
+    margin-right: 80px;
+    float: right;
+}
+#login{
+    width: 220px;
+    height: 30px;
+    background-color: #37FFB0;
+    color: white;
+    font-family:'Roboto';
+    border: none;
+    border-radius: 15px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+#login a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+#dont{
+    margin-top: 30px;
+    color: black;
+    font-size: 15px;
+    font-family:'Roboto';
+    margin-left: 40px;
+    font-weight: lighter;
+}
+#signup{
+    color:rgb(74, 180, 145) ;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+#signup a{
+    text-decoration: none;
+    color: #0E87B9;
+    font-family: 'RocknRoll one';
+    font-weight: normal;
+}

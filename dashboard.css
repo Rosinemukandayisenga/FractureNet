@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+      background-color: #073b53;
+      width: 100%;
+      height: 60px;
+      display: flex;
+      gap: 60px;
+  }
+  .topleftmenu{
+    width: 400px;
+    height: 40px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .topleftmenu h2{
+    color: aquamarine;
+    font-variant: small-caps;
+    justify-content: center;
+    align-items: center;
+  }
+.bodycontainer{
+  width: 100%;
+  height: 90vh;
+  /* background-color: gray; */
+  display: flex;
+}
+.leftside{
+  width: 300px;
+  height: 90vh;
+  background-color: #073b53;
+  justify-content: center;
+  display: block;
+}
+.rightside{
+  width: 1000px;
+  height: 90vh;
+  /* background-color: black; */
+  display: flex;
+  gap: 50px;
+}
+.innderleft{
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  border-color: black;
+  border-width: 2px;
+  display: block;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+#first{
+  color: white;
+}
+#homebtn{
+  width: 120px;
+  height: 40px;
+  background-color: rgb(24, 230, 161);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: monospace;
+}
+.predictbtn{
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  border-color: aquamarine;
+  font-family: monospace;
+  margin-top: 40px;
+  font-weight: 500;
+  border-width: 1px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+#pre{
+  color: aquamarine;
+  font-size: 15px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  float: inline-end;
+}
+#clinic{
+  color: aquamarine;
+  font-size: 15px;
+  padding-right: 10px;
+}
+#unique{
+  display: flex;
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  border-color: aquamarine;
+  margin-top: 40px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  color: white;
+  border-width: 1px;
+  font-family: monospace;
+  font-weight: 500;
+
+}
+.firstone{
+  width: 200px;
+  height: 90vh;
+  /* background-color: gray; */
+  display: inline-block;
+}
+.firstone img{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.secondone{
+  width: 500px;
+  height: 90vh;
+  /* background-color: aquamarine; */
+  float: right;
+
+}
+.secondone input{
+  float: right;
+  height: 40px;
+  width: 150px;
+  color: black;
+  font-family: monospace;
+  margin-top: 20px;
+  border: 1px black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(194, 218, 228);
+}
+#recent{
+  color: black;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-family: monospace;
+  font-size: 15px;
+}
+.subsecond img{
+margin-top: 25px;
+}

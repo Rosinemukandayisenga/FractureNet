@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Landing page</title>
+    <link rel="stylesheet" href="prediction.css">
+    <script src="https://kit.fontawesome.com/6acafc8731.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="topleftmenu">
+            <h2>FractureNet</h2>
+        </div>
+        </div> 
+       <div class="bodycontainer">
+        <div class="leftside">
+            
+            <div class="innderleft">
+                <a href="index.html"><button id="homebtn"><ion-icon name="home-outline"></ion-icon>Home</button></a> <br>
+                <i class='bx bx-menu-alt-left'></i><button class="predictbtn"><h6 id="pre">P</h6> Prediction</button>
+                <button id="unique"><h6 id="clinic">C</h6>E-clinic</button>
+            </div>
+        </div>
+        <div class="rightside">
+          
+          <div class="firstone">
+          <h1 id="Dr"> Welcome Dr Bernard </h1>
+          <input type="number" placeholder="PatientId"> <br>
+          <input type="text" placeholder="Full names"><br>
+          <input type="text" placeholder="Province"><br>
+          <input type="text" placeholder="District"><br>
+          <input type="text" placeholder="Sector"><br>
+          <input type="date" placeholder="date" id="tarehe"><br>
+          <select id="country">
+            <!-- <option value="">Please Select...</option> -->
+            <option value="RW" id="rwanda">Rwanda (+250)</option>
+            <option value="US">United States (+1)</option>
+            <option value="CA">Canada (+1)</option>
+            <option value="UK">United Kingdom (+44)</option>
+            <option value="Afghanistan">Afghanistan(+93)</option>
+            <option value="Albania">Albania (+355)</option>
+             <option value="Algeria">Algeria (+213)</option>
+             <option value="Andorra">Andorra (+376)</option>
+          </select>
+          <input type="number" placeholder="Phone number"> <br>
+          </div>
+          <div class="secondone">
+            <div class="rightfisrt">
+                <h3 id="detection">Fracture Detection</h3>
+
+                <input type="file" id="image_input" accept="image/png, image/jpg, image/jpeg">
+                <div id="display_image"> 
+
+                </div>
+
+
+                <button id="noresult">No detection</button>
+                <button id="predict">predict</button>
+            </div>
+            <div class="rightsecond">
+                <h3 id="confusion">Confusion Matrix</h3>
+                <button id="confuse">No visualization</button>
+                <button id="confidence">No Confidence</button>
+                <button id="save">Save</button>
+                
+            </div>
+          </div>
+       </div>
+   <script>
+const image_input=document.querySelector('#image_input');
+var uploaded_image="";
+image_input.addEventListener("change",function(){
+  const reader= new FileReader();
+  reader.addEventListener("load",()=>{
+  uploaded_image=reader.result;
+  document.querySelector("#display_image").style.backgroundImage= url`(${uploaded_image})`;
+  });
+  reader.readAsDataURL(this.files[0]);
+})
+
+
+
+
+   </script>     
+</body>
+</html>

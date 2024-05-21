@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation bar section Begining */
+body{
+    background-image: linear-gradient(to left,black,rgb(54, 97, 99),black);
+}
+.navbar{
+  background-color: transparent;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 60px;
+}
+.topleftmenu{
+    width: 300px;
+    height: 40px;
+    margin-left: 20px; 
+}
+#splashhome{
+    text-decoration: underline;
+    text-decoration-color: #09f19c;
+    text-underline-offset: 10px;
+}
+#splashhome:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-underline-offset: 5px;
+}
+.topleftmenu h2{
+    /* font-family:poppins serif; */
+    font-size: large;
+    font-variant: small-caps;
+    color: #3EB29A;
+    padding: 10px;
+}
+.topmiddlemenu{
+    width: 400px;
+    height: 40px;
+    padding-top: 10px;
+}
+.topmiddlemenu ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.topmiddlemenu li a{
+    font-size: 15px;
+    color: white;
+    font-family: 'Roboto';
+    text-decoration: none;
+    white-space: nowrap;
+}
+.topmiddlemenu li a:hover{
+     color: blue;
+     cursor: pointer;
+}
+.toprightmenu{
+    width: 300px;
+    height: 40px;
+    /* background-color: green; */
+    padding-top: 5px;
+}
+#login{
+    width: 150px;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(240, 236, 236), #09f19c);
+    border: none;
+    float: right;
+    border-radius: 5px;
+    color: white;
+    font-variant: small-caps;
+
+}
+/* Navigation bar section Ending */
+/* Starting of the body section */
+.maincontent{
+    /* background-image: linear-gradient(to top,gray,black); */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.leftpart{
+    width: 400px;
+    height: 100vh;
+    background-image: linear-gradient(to right,black,rgb(92, 114, 114));
+}
+.middlepart{
+    width: 600px;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(92, 114, 114),rgb(54, 97, 99));
+}
+.rightpart{
+    width: 400px;
+    height: 100vh;
+     background-image: linear-gradient(to right,rgb(54, 97, 99),black);
+}
+.rightpart img{
+    float: inline-end;
+    padding-top: 90px;
+    padding-right: 20px;
+}
+.middlecontent{
+    font-size: 20px;
+   text-align:center;
+   padding-top: 140px;
+   color: white;
+   font-family: 'Roboto';
+   letter-spacing: 1px;
+    
+}
+.middlecontent h5{
+    font-weight: 100;
+    color: rgb(193, 193, 193);
+}
+.search{
+    width:600px;
+    height: 40px;
+    background-color: black;
+    margin-top: 50px;
+    border-radius: 10px;
+    opacity: .4;
+}
+.search h3{
+    font-weight: 100;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-align: center;
+    padding-top: 7px;
+}
+.getbutton{
+    width: 600px;
+    height: 200px;
+    /* margin-top: 20px; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#start{
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    text-align: center;
+    border: none;
+}
+/* Ending of the body section */
+
+/* Footer Section start */
+footer{
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(to top,rgb(54, 97, 99),black);
+    display: flex;
+    justify-content: center;
+   overflow: hidden;
+}
+.left-logo{
+    width: 300px;
+    height: 130px;
+   border-top-right-radius: 50%;
+    justify-content: center;
+    padding-top: 40px;
+}
+.left-logo h2{
+    color: #3EB29A;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.Quick-links{
+    width: 400px;
+    height: 130px;
+    border-left: 3px solid #119062;
+}
+.Quick-links a{
+    display: block;
+    padding-left: 60px;
+    padding-top: 3px;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: white;
+}
+#follow{
+    color: #119062;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.fa-x-twitter {
+    padding-left: 30px;
+    color: #119062;
+    font-size: 20;
+    padding-right: 10px; 
+}
+.socialmedia h3{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+i{
+    color: #119062;
+    font-size: 20px;
+}
+
+
+
+/* Footer Section  End */
